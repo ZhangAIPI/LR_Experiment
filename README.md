@@ -1,4 +1,7 @@
 # LR_Experiment  
+## 项目说明
+通过LR方法训练人工神经网络提高模型噪声及对抗鲁棒性
+
 ## 项目文件说明:
 ---MNIST&Fashion 对MNISt及Fashion MNIST的测试  
    ---train 训练代码，包括BP，BP+，LRS，LRT，LRS with 0-1 loss， LRT with 0-1 loss  
@@ -7,6 +10,10 @@
    ---train 训练代码，包括BP-1, BP-2, LRS, LRT, LRS with 0-1 loss, LRT with 0-1 loss, LR with relu  
    ---adv 噪声及对抗样本鲁棒性测试  
 ---var 统计方差  
+
+## 运行环境  
+python==3.7.4  pytorch==1.6.0
+
 ## 基本实验结果  
 ### MNIST  
 #### 对抗鲁棒性
@@ -69,7 +76,7 @@
 |Sigmoid|20.30\%|14.6\%|17.04\%|  
 |Threhold|17.30\%|15.6\%|14.34\%|  
 
-Activations + 0-1 loss & Orig & AdvLBFGS & AdvFGSM\\
+Activations + 0-1 loss | Orig | AdvLBFGS | AdvFGSM|  
 |  ----  | ----  |  ----  | ----  |  
 |Sigmoid|15.22\%|7.00 \%|14.35\%|  
 |Threhold|19.57\%|13.6\%|16.52\%|  
