@@ -9,12 +9,13 @@
 ---var 统计方差  
 ## 基本实验结果  
 ### MNIST  
-
+#### 对抗鲁棒性
 |Activations + Entropy | Orig | AdvLBFGS | AdvFGSM|  
 |  ----  | ----  |  ----  | ----  |  
 |BP becnmark| 96.34\%| 57.29\%| 28.37\%|  
 | Sigmoid| 95.54\%| 77.60\%| 45.91\%|   
 | Threhold|95.33\%|73.30\%|54.35\%|  
+
 | Activations + 0-1 loss |  Orig |  AdvLBFGS |  AdvFGSM| 
 |  ----  | ----  |  ----  | ----  |  
 | Sigmoid| 84.54\%| 73.50 \%| 58.05\%|  
@@ -22,12 +23,13 @@
 
 
 
-
+### 噪声鲁棒性
 |Activations + Entropy | Orig | Gaussian | Impulse | Glass Blur | contrast|  
 |  ----  | ----  |  ----  | ----  |  ----  | ----  |  
 |BP becnmark|96.34\%|96.35\%|91.95\%|86.16\%|67.25\%|  
 |Sigmoid|95.54\%|95.37\%|93.78\%|87.79\%|76.98\%|  
 |Threhold|95.33\%|94.17\%|95.01\%|86.76\%|68.13\%|  
+
 |Activations + 0-1 loss | Orig | Gaussian | Impulse | Glass Blur | contrast|  
 |  ----  | ----  |  ----  | ----  |  ----  | ----  |  
 |Sigmoid|84.54\%|82.53\%|81.23\%|79.25\%|80.92\%|  
