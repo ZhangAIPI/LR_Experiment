@@ -85,8 +85,8 @@ Activations + 0-1 loss | Orig | AdvLBFGS | AdvFGSM|
 |Activations + Entropy | Orig | Gaussian | Impulse | Glass Blur | contrast|  
 |  ----  | ----  |  ----  | ----  |  ----  | ----  | 
 |BP becnmark|21.70\%|12.68\%|12.52\%|13.40\%|11.36\%|  
-|Sigmoid|20.30\%|17.47\%|17.52\%|17|.68\%|1|.28\%| |
-|Threhold|17.30\%|16.24\%|16.48\%|1|6.96\%|1|.88\%|  
+|Sigmoid|20.30\%|14.6\%|17.04\%|  
+|Threhold|17.30\%|15.6\%|14.34\%|  
 
 |Activations + Entropy | Orig | Gaussian | Impulse | Glass Blur | contrast|  
 |  ----  | ----  |  ----  | ----  |  ----  | ----  | 
