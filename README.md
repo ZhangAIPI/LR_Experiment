@@ -35,11 +35,37 @@
 |Sigmoid|84.54\%|82.53\%|81.23\%|79.25\%|80.92\%|  
 |Threhold|90.22\%|90.54\%|90.10\%|87.19\%|79.81\%|  
 
+### FashionMnist
+
+|Activations + Entropy | Orig | AdvLBFGS | AdvFGSM|  
+|  ----  | ----  |  ----  | ----  |  
+|BP becnmark|86.45\%|49.61\%|17.86\%|  
+|Sigmoid|83.93\%|53.54\%|52.85\%|  
+|Threhold|85.54\%|52.92\%|42.62|  
+
+Activations + 0-1 loss & Orig & AdvLBFGS & AdvFGSM\\
+|  ----  | ----  |  ----  | ----  |  
+|Sigmoid|58.68\%|51.00\%|46.35\%|  
+|Threhold|62.05\%|60.15\%|57.19\%|  
+
+
+|Activations + Entropy | Orig | Gaussian | Impulse | Glass Blur | contrast|  
+|  ----  | ----  |  ----  | ----  |  ----  | ----  | 
+|BP becnmark|86.45\%|81.05\%|65.40\%|55.02\%|41.05\%|  
+|Sigmoid|83.93\%|82.53\%|80.23\%|79.09\%|49.96\%|  
+|Threhold|85.54\%|82.79\%|82.65\%|77.16\%|45.82\%|   
+
+|Activations + Entropy | Orig | Gaussian | Impulse | Glass Blur | contrast|  
+|  ----  | ----  |  ----  | ----  |  ----  | ----  | 
+|Sigmoid|58.68\%|54.26\%|52.43\%|51.05\%|40.77\%|  
+|Threhold|62.05\%|57.93\%|57.25\%|53.13\%|44.68\%|  
+
+
 ### TinyImageNet
 
 |Activations + Entropy | Orig | AdvLBFGS | AdvFGSM|  
 |  ----  | ----  |  ----  | ----  |  
-|BP becnmark&21.70\%&11.6\%|8.70\%|  
+|BP becnmark|21.70\%|11.6\%|8.70\%|  
 |Sigmoid|20.30\%|14.6\%|17.04\%|  
 |Threhold|17.30\%|15.6\%|14.34\%|  
 
