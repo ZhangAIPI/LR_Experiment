@@ -43,7 +43,7 @@
 |Sigmoid|83.93\%|53.54\%|52.85\%|  
 |Threhold|85.54\%|52.92\%|42.62|  
 
-Activations + 0-1 loss & Orig & AdvLBFGS & AdvFGSM\\
+|Activations + 0-1 loss | Orig | AdvLBFGS | AdvFGSM|
 |  ----  | ----  |  ----  | ----  |  
 |Sigmoid|58.68\%|51.00\%|46.35\%|  
 |Threhold|62.05\%|60.15\%|57.19\%|  
